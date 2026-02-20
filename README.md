@@ -13,6 +13,17 @@
 
 ## Demo
 
+### brain-even
 ![brain-even demo](images/even-demo.gif)
 
+### brain-calc
 ![brain-calc demo](images/calc.gif)
+
+### brain-gcd
+![brain-gcd demo](images/gcd.gif)
+
+### brain-progression
+![brain-progression demo](images/prog.gif)
+
+### brain-prime
+![brain-prime demo](images/prime.gif)
