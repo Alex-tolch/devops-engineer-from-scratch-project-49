@@ -6,7 +6,10 @@ ROUNDS_COUNT = 3
 
 
 def run_game(rules: str, get_round):
-    """Run a game: welcome, show rules, run rounds. get_round() -> (question, correct_answer)."""
+    """
+    Run a game: welcome, show rules, run rounds. 
+    get_round() -> (question, correct_answer).
+    """
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print(rules)
@@ -20,7 +23,10 @@ def run_game(rules: str, get_round):
         normalized_correct = correct_answer.strip().lower()
 
         if normalized_user != normalized_correct:
-            print(f"'{user_answer_raw}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{user_answer_raw}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
 
